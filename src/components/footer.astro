@@ -1,0 +1,28 @@
+---
+import HeroImage from "~/components/hero-image.astro";
+---
+
+<footer class="relative flex flex-col items-center h-20 justify-center"> 
+  <div class="absolute inset-0 overflow-hidden opacity-40">
+    <HeroImage />
+  </div>
+  <div class="relative flex items-center space-x-6 text-sm  mt-6">
+    <div class="flex items-center">
+      <p class="ml-2">Scheveningseweg 60-8, 2517 KW, The Hague, The Netherlands</p>
+    </div>
+    <p>
+      Chamber of Commerce: 96353546
+    </p>
+    <p>
+      VAT: NLB867574446B01
+    </p>
+  </div>
+  
+  <!-- Separator line -->
+  <hr class="my-4 w-full border-gray-300" />
+  
+  <!-- Copyright notice -->
+  <p class="text-sm text-center">
+    © {new Date().getFullYear()} AI-tec. All rights reserved.
+  </p>
+</footer>
